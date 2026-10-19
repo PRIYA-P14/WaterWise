@@ -1,0 +1,28 @@
+{
+  "project": "WaterWise Farm AI",
+  "status": "Prototype - decision support only",
+  "total_observed_days": 355,
+  "date_range": {
+    "start": "2024-03-29",
+    "end": "2025-10-02"
+  },
+  "weather_summary": {
+    "average_temperature_c": 20.43,
+    "average_humidity_percent": 59.95,
+    "total_recorded_rainfall_mm": 434.5,
+    "average_et0_mm_day": 4.7
+  },
+  "irrigation_review_counts": {
+    "Monitor - lower ET0": 183,
+    "Review - moisture not relatively low": 66,
+    "Potential irrigation review": 61,
+    "Review rainfall before irrigation": 45
+  },
+  "limitations": [
+    "Review categories use experimental thresholds",
+    "Soil texture is not specified",
+    "Soil moisture values are modelled estimates",
+    "No validated irrigation-water quantity is calculated",
+    "Missing calendar days are not treated as zero readings"
+  ]
+}

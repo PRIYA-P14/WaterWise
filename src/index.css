@@ -1,0 +1,33 @@
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --green-dark: #1a5c38;
+  --green-mid: #2d8653;
+  --green-light: #4caf7d;
+  --green-pale: #e8f5ee;
+  --white: #ffffff;
+  --neutral-50: #f8f9fa;
+  --neutral-100: #f1f3f5;
+  --neutral-200: #e9ecef;
+  --neutral-400: #adb5bd;
+  --neutral-600: #6c757d;
+  --neutral-800: #343a40;
+  --accent-blue: #1976d2;
+  --accent-orange: #e65100;
+  --accent-amber: #f57c00;
+  --accent-teal: #00796b;
+  --shadow-sm: 0 1px 3px rgba(0,0,0,.08);
+  --shadow-md: 0 4px 12px rgba(0,0,0,.1);
+  --radius: 10px;
+  --sidebar-w: 240px;
+}
+
+body {
+  font-family: 'Segoe UI', system-ui, sans-serif;
+  background: var(--neutral-100);
+  color: var(--neutral-800);
+  line-height: 1.5;
+}
+
+button { cursor: pointer; font: inherit; }
+input, select { font: inherit; }

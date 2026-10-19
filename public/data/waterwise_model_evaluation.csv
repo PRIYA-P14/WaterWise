@@ -1,0 +1,4 @@
+model,test_records,mae_mm_day,rmse_mm_day
+Persistence Baseline,71,0.856,1.187
+Random Forest,71,0.941,1.190
+7-day Seasonal Baseline,71,1.431,1.986
